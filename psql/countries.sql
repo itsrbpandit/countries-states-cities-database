@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Rdg6QksXDS6fIKEAGqRmrnLxIztedRjFi9gHQgzxJcn2cw2JdEtddO3wihaLBvm
+\restrict OoHJdkW1dcdoKB6KorghcniOK7St6vdFqBwiyBKMByW5B8zg76Gd4myAMlfz2La
 
 -- Dumped from database version 16.10 (Ubuntu 16.10-1.pgdg24.04+1)
 -- Dumped by pg_dump version 16.10 (Ubuntu 16.10-1.pgdg24.04+1)
@@ -393,5 +393,5 @@ ALTER TABLE ONLY public.countries
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Rdg6QksXDS6fIKEAGqRmrnLxIztedRjFi9gHQgzxJcn2cw2JdEtddO3wihaLBvm
+\unrestrict OoHJdkW1dcdoKB6KorghcniOK7St6vdFqBwiyBKMByW5B8zg76Gd4myAMlfz2La
 
