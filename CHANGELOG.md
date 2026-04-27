@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-04
+- **2026-04-25** - PR [#145](https://github.com/itsrbpandit/countries-states-cities-database/pull/145): Updated countries (by @pull[bot])
+- **2026-04-25** - PR [#144](https://github.com/itsrbpandit/countries-states-cities-database/pull/144): Updated cities, Updated states, Updated countries (CA, CN, PY) (by @pull[bot])
+
 ## 2026-03
 - **2026-03-28** - PR [#1372](https://github.com/dr5hn/countries-states-cities-database/pull/1372): Updated cities (EG, MY, NG, PH, SA) (by @github-actions[bot])
 - **2026-03-28** - PR [#1371](https://github.com/dr5hn/countries-states-cities-database/pull/1371): Updated cities (MY) (by @dr5hn)
