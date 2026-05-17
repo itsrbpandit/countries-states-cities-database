@@ -47,7 +47,7 @@ CREATE TABLE `postcodes` (
   CONSTRAINT `postcodes_city_fk` FOREIGN KEY (`city_id`) REFERENCES `cities` (`id`) ON DELETE SET NULL,
   CONSTRAINT `postcodes_country_fk` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`),
   CONSTRAINT `postcodes_state_fk` FOREIGN KEY (`state_id`) REFERENCES `states` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPACT COMMENT='Postal codes (issue #1039) - Tier 4: one row per postcode';
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPACT COMMENT='Postal codes (issue #1039) - Tier 4: one row per postcode';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -55,6 +55,7 @@ CREATE TABLE `postcodes` (
 --
 
 /*!40000 ALTER TABLE `postcodes` DISABLE KEYS */;
+INSERT INTO `postcodes` VALUES (1,'9485',125,'LI',451,'02',NULL,'Nendeln','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(2,'9486',125,'LI',455,'04',NULL,'Schaanwald','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(3,'9487',125,'LI',457,'03',NULL,'Bendern','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(4,'9488',125,'LI',449,'08',NULL,'Schellenberg','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(5,'9490',125,'LI',452,'11',NULL,'Vaduz','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(6,'9491',125,'LI',453,'06',NULL,'Ruggell','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(7,'9492',125,'LI',451,'02',NULL,'Eschen','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(8,'9493',125,'LI',455,'04',NULL,'Mauren','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(9,'9494',125,'LI',450,'07',NULL,'Schaan','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(10,'9495',125,'LI',459,'09',NULL,'Triesen','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(11,'9496',125,'LI',458,'01',NULL,'Balzers','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(12,'9497',125,'LI',456,'10',NULL,'Triesenberg','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(13,'9498',125,'LI',454,'05',NULL,'Planken','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(14,'98000',145,'MC',NULL,NULL,NULL,'Monaco','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(15,'47890',192,'SM',58,'07',NULL,'San Marino','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(16,'47891',192,'SM',65,'09',NULL,'Serravalle','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(17,'47892',192,'SM',59,'01',NULL,'Acquaviva','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(18,'47893',192,'SM',61,'06',NULL,'Borgo Maggiore','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(19,'47894',192,'SM',60,'02',NULL,'Chiesanuova','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(20,'47895',192,'SM',64,'03',NULL,'Domagnano','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(21,'47896',192,'SM',62,'04',NULL,'Faetano','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(22,'47897',192,'SM',66,'05',NULL,'Fiorentino','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(23,'47898',192,'SM',63,'08',NULL,'Montegiardino','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1),(24,'00120',238,'VA',NULL,NULL,NULL,'Citta del Vaticano','full',NULL,NULL,'manual',NULL,'2026-04-25 15:25:45','2026-04-25 15:25:45',1);
 /*!40000 ALTER TABLE `postcodes` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -66,4 +67,4 @@ CREATE TABLE `postcodes` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-04-25 15:04:32
+-- Dump completed on 2026-04-25 15:27:43
